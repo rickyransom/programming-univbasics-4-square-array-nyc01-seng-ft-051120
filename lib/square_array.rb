@@ -3,8 +3,7 @@ def square_array(array)
   new_array = []
   i=0
 while (i < new_array.length)
-   my_value = n **2
-    my_array << my_value
+   puts array ** 2
   end
   my_array
 end
