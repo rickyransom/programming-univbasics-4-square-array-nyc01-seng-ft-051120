@@ -1,10 +1,11 @@
 def square_array(array)
-  # your code here
-  new_array = []
-  i = 0
-  while i < array.length do
-new_array << (array[i]**2)
-   i++
+  squared = []
+  count = 0
+  while count < array.size do
+    squared << (array[count] ** 2)
+    count = count + 1
   end
-  return new_array
+  squared
+
 end
+  #return new_array
